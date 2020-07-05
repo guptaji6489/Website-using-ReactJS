@@ -4,6 +4,7 @@ import Contact from './Contact';
 import Service from './Service';
 import About from './About';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 
@@ -21,6 +22,7 @@ const App = () =>{
     <Route  exact path='/service'  component={Service} ></Route>
     <Redirect  to="/"/>
     </Switch>
+    <Footer />
 
 
      </>
