@@ -12,7 +12,7 @@ const Card = (props) =>{
    <div className="card" >
    <img src={props.imgsrc} className="card-img-top" alt="hello" />
    <div className="card-body">
-<!--      title of the card using props-->
+<!--      title of the card using the props-->
    <h5 className="card-title">{props.title}</h5>
    <p className="card-text">Some quick example text to build the card title and make up the bulk of the card's content.</p>
    <NavLink to="" className="btn btn-primary">Go somewhere</NavLink>
